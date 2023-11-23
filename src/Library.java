@@ -48,7 +48,7 @@ public class Library extends JFrame {
 		lblLibraryManagement.setFont(new Font("Tahoma", Font.PLAIN, 18));
 		lblLibraryManagement.setForeground(Color.GRAY);
 		
-		JButton btnAdminLogin = new JButton("Admin Login");
+		JButton btnAdminLogin = new JButton("Log in as administrator");
 		btnAdminLogin.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			AdminLogin.main(new String[]{});
