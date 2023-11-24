@@ -67,7 +67,7 @@ public class DeleteLibrarian extends JFrame {
 				}
 			}
 		});
-		btnDelete.setFont(new Font("Tahoma", Font.PLAIN, 13));
+		btnDelete.setFont(new Font("Tahoma", Font.PLAIN, 15));
 		
 		JButton btnNewButton = new JButton("Back");
 		btnNewButton.addActionListener(new ActionListener() {
