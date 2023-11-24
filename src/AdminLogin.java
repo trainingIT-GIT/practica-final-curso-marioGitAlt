@@ -53,7 +53,7 @@ public class AdminLogin extends JFrame {
 		lblAdminLoginForm.setForeground(Color.GRAY);
 		lblAdminLoginForm.setFont(new Font("Tahoma", Font.PLAIN, 18));
 		
-		JLabel lblEnterName = new JLabel("Enter Name:");
+		JLabel lblEnterName = new JLabel("Please enter your username:");
 		
 		JLabel lblEnterPassword = new JLabel("Enter Password:");
 		
