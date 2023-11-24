@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `librarian` (
   `city` varchar(100) NOT NULL,
   `contact` varchar(20) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
 
 --
 -- Dumping data for table `librarian`
