@@ -64,7 +64,7 @@ cYZxU!4Asr*LR3Nf
 - Corrige la contraseña y modifica el _commit_ anterior, sin crear un _commit_ más en el log.
 
 - **¿Qué comando has usado para hacer el punto anterior?**
-
+git commit --amend
 6. - En `src/BooksForm.java`, cambia "books" por "book" en todas las strings en las que aparezca (sólo en las strings, no tienes que cambiar ningún nombre de variable).
 - Crea un _commit_ con la modificación.
 
