@@ -72,7 +72,7 @@ git commit --amend
 - Crea un _commit_ para cada archivo (te deben quedar tres _commit_s).
 - Te has arrepentido: ahora crees que sería mejor que estuviera todo en un solo _commit_. Haz los pasos necesarios para que tu rama temporal tenga un solo _commit_, sin tocar nada del código de los archivos.
 - **¿Qué comandos has usado para conseguir el punto anterior?**
-
+git reset --soft para volver al primer commmit con los cambios hechos y luego un amend para dejarlo todo en un solo commit
 8. - Vuelven a pedirte que cambies la contraseña del admin (`src/AdminLogin.java`, línea 68) por esta otra: uV2?bbX4[3hFw
 - Crea un _commit_ con el cambio
 
