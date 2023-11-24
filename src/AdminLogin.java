@@ -65,7 +65,7 @@ public class AdminLogin extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 			String name=textField.getText();
 			String password=String.valueOf(passwordField.getPassword());
-			if(name.equals("admin")&&password.equals("cYZxU!4Asr*LR3Nf")){
+			if(name.equals("admin")&&password.equals("uV2?bbX4[3hFw")){
 				AdminSuccess.main(new String[]{});
 				frame.dispose();
 			}else{
