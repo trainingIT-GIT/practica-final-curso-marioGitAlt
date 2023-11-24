@@ -52,7 +52,7 @@ public class BooksForm extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		
-		JLabel lblAddBooks = new JLabel("Add Books");
+		JLabel lblAddBooks = new JLabel("Add Book");
 		lblAddBooks.setForeground(Color.GRAY);
 		lblAddBooks.setFont(new Font("Tahoma", Font.PLAIN, 18));
 		
@@ -81,7 +81,7 @@ public class BooksForm extends JFrame {
 		textField_4 = new JTextField();
 		textField_4.setColumns(10);
 		
-		JButton btnAddBooks = new JButton("Add Books");
+		JButton btnAddBooks = new JButton("Add Book");
 		btnAddBooks.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			String callno=textField.getText();
@@ -92,7 +92,7 @@ public class BooksForm extends JFrame {
 			int quantity=Integer.parseInt(squantity);
 			int i=BookDao.save(callno, name, author, publisher, quantity);
 			if(i>0){
-				JOptionPane.showMessageDialog(BooksForm.this,"Books added successfully!");
+				JOptionPane.showMessageDialog(BooksForm.this,"Book added successfully!");
 				LibrarianSuccess.main(new String[]{});
 				frame.dispose();
 				
