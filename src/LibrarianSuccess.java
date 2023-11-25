@@ -56,7 +56,7 @@ public class LibrarianSuccess extends JFrame {
 		});
 		btnNewButton.setFont(new Font("Tahoma", Font.PLAIN, 13));
 		
-		JButton btnViewBooks = new JButton("View Books");
+		JButton btnViewBooks = new JButton("View All Books");
 		btnViewBooks.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				ViewBooks.main(new String[]{});
