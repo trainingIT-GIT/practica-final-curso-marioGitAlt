@@ -98,7 +98,7 @@ siguiente tarea.
 - Crea un _commit_ con el cambio.
 - Te das cuenta de que has hecho el _commit_ en develop, cuando tenías que haber creado una nueva rama para ello y haber hecho el _commit_ ahí. Da los pasos necesarios para corregir el error. Pista: te será útil dibujar en un papel cómo ha quedado el log en cuanto a forma, _commits_ y “carteles” de ramas, y al lado dibujar cómo tendría que haber quedado todo si lo hubieras hecho bien.
 - **¿Qué comandos has lanzado para resolver el error?**
-
+git reset --mixed 66e0eee , git stash, creo la nueva rama, git apply
 13. - Te piden que vuelvas a dejar la contraseña del admin como la que metiste en el punto 5. Teniendo en cuenta que ya tienes el cambio registrado en un _commit_, **¿qué harías para volver a poner esa contraseña sin tocar el código?** Pista: lo que quieres hacer es aplicar en tu rama los cambios de un _commit_ aislado.
 - Te tendrá que quedar un _commit_ nuevo, y cabe la posibilidad de que tengas que
 resolver algún conflicto.
