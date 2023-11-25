@@ -81,7 +81,7 @@ public class LibrarianSuccess extends JFrame {
 		});
 		btnViewIssuedBooks.setFont(new Font("Tahoma", Font.PLAIN, 13));
 		
-		JButton btnReturnBook = new JButton("Return Book");
+		JButton btnReturnBook = new JButton("Return a Book");
 		btnReturnBook.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				ReturnBook.main(new String[]{});
