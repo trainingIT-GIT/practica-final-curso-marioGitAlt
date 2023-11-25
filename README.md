@@ -117,3 +117,4 @@ resolver algún conflicto.
 
 17. - Tanto en local como en remoto sólo deberían quedar las ramas _main_ y _develop_.
 - **Describe las acciones que has realizado y/o comandos que has lanzado para comprobarlo, y para borrar las ramas que se te hubieran quedado colgadas durante el ejercicio**
+git branch -a, luego git push -d origin feature/isbn y después de esto ya me ha quedado solo main y develop
